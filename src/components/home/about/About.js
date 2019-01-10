@@ -30,7 +30,8 @@ const A = styled.a`
   border-bottom: 1px dotted #fff;
   transition: all ease-out 0.15s;
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     color: ${ACCENT_COLOR};
     border-bottom: 1px dotted ${ACCENT_COLOR};
   }
@@ -49,23 +50,24 @@ const About = () => (
     <AboutSection>
       <h1>Hi. I'm Paweł Kosiec.</h1>
       <P>
-        I'm a Full-stack Developer located in Gliwice, Poland. Currently I am
-        hired in SAP, where I develop{" "}
+        I'm a Full-stack Developer located in Gliwice, Poland.</P>
+        <P>Currently
+        I&nbsp;work at SAP, where I&nbsp;develop{" "}
         <A href="https://kyma-project.io" target="_blank">
           Kyma
         </A>
-        , an open source project. I write back-end services in{" "}
+        , an open source project. I&nbsp;write back-end services in{" "}
         <Highlight>Go</Highlight>, and modern front-ends using{" "}
-        <Highlight>React.js</Highlight>. I work in Cloud-native environment,
-        associated with <Highlight>microservices</Highlight> and extending{" "}
-        <Highlight>Kubernetes</Highlight>.
+        <Highlight>React.js</Highlight>. I&nbsp;work in Cloud-native
+        environment, associated with <Highlight>microservices</Highlight> and
+        extending <Highlight>Kubernetes</Highlight>.
       </P>
       <P>
-        I have recently completed a master's in Computer Science at Silesian
+        I&nbsp;have recently completed a master's in Computer Science at Silesian
         University of Technology.
       </P>
       <P>
-        I'm open source & cloud native enthusiast. That's why I'm co-organizer
+        I'm open source and Cloud Native enthusiast. That's why I'm an&nbsp;co-organizer
         of a local Go & Cloud Native meetup, <A href="">Gophers Silesia</A> in
         Katowice.
       </P>
